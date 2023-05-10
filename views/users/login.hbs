@@ -1,0 +1,21 @@
+<h3>{{viewTitle}}</h3>
+
+<form action="/user/loginHandle" method="get">
+
+    <div class="form-group">
+        <label for="">Email</label>
+        <input type="text" name="lemail" class="form-control" placeholder="">
+    </div>
+
+    <div class="form-group">
+        <label for="">Password</label>
+        <input type="password" name="lpassword" class="form-control" placeholder="">
+    </div>
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-info">Login</button>
+        <a href="/user/addUser" class="btn btn-primary" method="POST">Register</a>
+        <a href="/user/products" class="btn btn-primary" method="POST">ADMINr</a>
+    </div>
+
+</form>
