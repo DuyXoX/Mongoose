@@ -14,9 +14,9 @@ const port = 3000;
 
 // app.use(bodyParser.json());
 // app.engine('.hbs', expressHandlebars.engine());
-// app.engine('.hbs', expressHandlebars.engine({extname:'.hbs',defaultlayout:'main'}));
+app.engine('.hbs', expressHandlebars.engine({extname:'.hbs',defaultlayout:'main'}));
 
-// app.set('view engine', '.hbs');
+app.set('view engine', '.hbs');
 // app.use(express.json());
 
 // mongoose.connect(url, { useUnifiedTopology: true, useNewUrlParser: true });
