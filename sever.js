@@ -25,8 +25,8 @@ app.set('view engine', '.hbs');
 // app.use('/user', userController);
 
 app.get('/', (req, res) => {
-    return res.send("Hello web");
-//     return res.render('home');
+//     return res.send("Hello web");
+    return res.render('home');
 });
 app.listen(port, () => {
     console.log('server is running!');
