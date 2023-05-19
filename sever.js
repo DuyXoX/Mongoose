@@ -1,8 +1,8 @@
-const express = require("express");
+const express = require('express');
 // const mongoose = require('mongoose');
 // // const userRouter = require('./routes/userRoute');
 // const bodyParser = require('body-parser');
-// const expressHandlebars = require('express-handlebars');
+const expressHandlebars = require('express-handlebars');
 // const userController = require('./controller/userController')
 // const url = "mongodb+srv://duyvmpk:duy123@cluster0.wy2cqmu.mongodb.net/MonggoDB?retryWrites=true&w=majority";
 
@@ -26,7 +26,7 @@ const port = 3000;
 
 app.get('/', (req, res) => {
     return res.send("Hello web");
-//     return res.render("home");
+//     return res.render('home');
 });
 app.listen(port, () => {
     console.log('server is running!');
